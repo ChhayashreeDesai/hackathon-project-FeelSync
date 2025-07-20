@@ -1,69 +1,61 @@
-# Welcome to your Lovable project
+🎧 FeelSync – Harmonizing Your World Through Taste
+FeelSync is an intelligent taste-based assistant that blends cultural preferences with daily life decisions — from career guidance to daily planning. Using Qloo and Gemini APIs, it transforms user inputs (books, music, films, mood, etc.) into personalized recommendations, productivity support, and introspective insights.
 
-## Project info
+Project URL: https://feelsync.lovable.app/
 
-**URL**: https://lovable.dev/projects/f34e3a91-e821-4705-9e65-257dcf59254e
+🌟 Features
+🧭 Career Compass
+Discover your ideal career path based on your cultural taste:
 
-## How can I edit this code?
+🎬 Books, Music, Movies → 🧠 Persona Analysis
 
-There are several ways of editing your application.
+🛠️ Profession Suggestions + Tools
 
-**Use Lovable**
+📚 Recommended Course + Book
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f34e3a91-e821-4705-9e65-257dcf59254e) and start prompting.
+🎵 Theme Song + Taste Insight Summary
 
-Changes made via Lovable will be committed automatically to this repo.
+📚 Study Buddy
+Boost focus with taste-personalized tools:
 
-**Use your preferred IDE**
+🎼 Suggests perfect genre & track to study
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🛠️ Study tools, productivity tips
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🧠 Taste Insights based on subject + mood
 
-Follow these steps:
+📅 Daily Planner
+Craft a mood-aligned day plan:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+☀️ Morning, 🕛 Midday, 🌙 Evening To-Dos
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🌈 Daily Inspiration + Song of the Day
 
-# Step 3: Install the necessary dependencies.
-npm i
+🔍 Taste Insight Summary
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+❤️ Ideal Type Finder
+Find the romantic personality that matches your cultural tastes:
 
-**Edit a file directly in GitHub**
+❤️ “Type of Lover You Are”
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+💞 Ideal Traits + Matching Persona
 
-**Use GitHub Codespaces**
+📖 Recommended Reads & 🎵 Song (YouTube preview)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🧠 How It Works
+🔗 APIs Used
+Qloo API: Understands cultural taste across books, films, shows, music
 
-## What technologies are used for this project?
+Gemini API (Google AI): Performs contextual persona detection and generates intelligent responses like study plans, daily suggestions, love insights, etc.
 
-This project is built with .
+🪄 Smart Prompt Engineering
+Prompts are merged and optimized to:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Prevent unnecessary API calls
 
-## How can I deploy this project?
+Cache frequent results
 
-Simply open [Lovable](https://lovable.dev/projects/f34e3a91-e821-4705-9e65-257dcf59254e) and click on Share -> Publish.
+Handle Gemini fallback (graceful degradation)
 
-## I want to use a custom domain - is that possible?
+Combine Qloo insights + Gemini reasoning in a single efficient flow
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
